@@ -1,3 +1,25 @@
+:root{
+    --container-width:1270px;
+    --container-padding:15px;
+    --secondaru:rgba(15,31,28,0.5);
+}
+
 body{
     font-family: 'Poppins', sans-serif;
+    color: #0F1F1C;
+    background: #F6F6F6;
+}
+
+.none{
+    display: none !important;
+}
+
+.container{
+    max-width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+.container-right{
+    padding-left: calc( (100% - var(--container-width))/2);
+    margin-left: var(--container-padding);
 }
