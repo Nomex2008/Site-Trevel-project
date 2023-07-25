@@ -466,3 +466,76 @@ body{
     opacity: .6;
     box-shadow: 0 0 15px #FF7B4E;
 }
+/*subscribe*/
+.subscribe {
+    padding: 35px 0 50px;
+}
+.subscribe__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+.subscribe__title {
+    color: #0F1F1C;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-bottom: 60px;
+}
+/*subscribe__form*/
+.subscribe__form {
+    background-color: #FFF;
+    border-radius: 35px;
+
+    padding: 12px 15px 12px 56px;
+
+    display: flex;
+    column-gap: 20px;
+}
+.subscribe__form-input {
+    color: #0F1F1C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    opacity: .5;
+}
+.subscribe__form-btn {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    border-radius: 35px;
+    background: linear-gradient(172deg, #FF7B4E 0%, #FF584E 100%), #FFF;
+
+    padding: 34px 86px;
+
+    transition: all .3s ease;
+}
+.subscribe__form-btn:hover{
+    opacity: .6;
+    box-shadow: 0 0 15px #FF7B4E;
+}
+/*footer*/
+.footer{
+    padding: 56px 0 74px;
+}
+.footer__list a{
+    color: #0F1F1C;
+}
+.footer__logo a{
+    color: #FF7C4E;
+}
+.footer__login a{
+    color: #FF7C4E;
+}
+a.btn{
+    color: #fff;
+}
