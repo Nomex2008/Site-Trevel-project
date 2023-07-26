@@ -84,6 +84,16 @@ body{
     width: 894px;
     height: 940px;
 }
+.header__img:after{
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 0;
+
+    width: 830px;
+    height: 622px;
+    background: url('../img/header/header-elements.svg') 0 0 no-repeat;
+}
 /*header__content*/
 .header__badge {
     font-size: 18px;
